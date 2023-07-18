@@ -9,9 +9,11 @@ While True:
           )
     option = int(input('Please enter an option: ')
     if option == 1:
-        pass
+        old_ password = int(input('Please enter your password to encode: '))
+        print('Your password has been encoded and stored')
     elif option == 2:
-        pass
+        new_password = 1
+        print(f'The encoded password is {new_password}, and the original password is {old_password})
     elif option == 3:
-        pass
-# intento de clone
+        break
+
